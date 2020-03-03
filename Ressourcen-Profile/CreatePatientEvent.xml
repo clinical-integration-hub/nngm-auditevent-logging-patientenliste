@@ -85,8 +85,32 @@
       <path value="AuditEvent.agent" />
       <mustSupport value="true" />
     </element>
+    <element id="AuditEvent.agent.altId">
+      <path value="AuditEvent.agent.altId" />
+      <definition value="Alternative agent Identifier. For a human, this should be a user identifier text string from authentication system. This identifier would be one known to a common authentication system (e.g. single sign-on), if available.&#xD;&#xA;&#xD;&#xA;SMS User ID" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="AuditEvent.agent.requestor">
+      <path value="AuditEvent.agent.requestor" />
+      <mustSupport value="true" />
+    </element>
     <element id="AuditEvent.source">
       <path value="AuditEvent.source" />
+      <mustSupport value="true" />
+    </element>
+    <element id="AuditEvent.source.site">
+      <path value="AuditEvent.source.site" />
+      <definition value="Logical source location within the healthcare enterprise network.  For example, a hospital or other provider location within a multi-entity provider group.&#xD;&#xA;&#xD;&#xA;ID SMS OU des jeweiligen nNGM Netzwerkzentrums" />
+      <min value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://nngm.de/fhir/ValueSet/nNGM-Netzwerkzentren" />
+      </binding>
+    </element>
+    <element id="AuditEvent.source.observer.display">
+      <path value="AuditEvent.source.observer.display" />
       <mustSupport value="true" />
     </element>
   </differential>
