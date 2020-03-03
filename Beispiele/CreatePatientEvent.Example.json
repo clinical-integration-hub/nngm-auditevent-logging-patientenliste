@@ -7,18 +7,19 @@
     "display": "RESTful Operation"
   },
   "action": "C",
-  "recorded": "<dateTime>",
-  "outcome": "<AuditEventOutcome>",
-  "outcomeDesc": "<HTTP Status Code>",
+  "recorded": "2020-03-03T12:00:30+1",
+  "outcome": "8",
+  "outcomeDesc": "500",
   "agent": [
     {
-      "altId": "<SMS_UserId>",
+      "altId": "SMS_USER_ID_BEISPIEL",
       "requestor": true
     }
   ],
   "source": {
+    "site": "CIO Köln",
     "observer": {
-      "display": "<Name nNGM Netzwerkzentrum>"
+      "display": "CDS Version: nNGM Pilot"
     }
   }
 }
