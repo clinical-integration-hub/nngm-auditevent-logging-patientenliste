@@ -268,7 +268,7 @@
       "display": "Network Authentication Required"
     }
   ],
-  "count": 62,
+  "count": 61,
   "title": "HTTP Status Code",
   "valueSet": "http://www.iana.org/assignments/http-status-codes",
   "experimental": true,

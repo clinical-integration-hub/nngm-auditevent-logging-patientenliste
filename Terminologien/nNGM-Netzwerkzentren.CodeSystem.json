@@ -1,0 +1,108 @@
+{
+  "resourceType": "CodeSystem",
+  "name": "nNGM-Netzwerkzentren",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "url": "http://nngm.de/fhir/CodeSystem/nNGM-Netzwerkzentren",
+  "version": "0.9",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url"
+        }
+      ],
+      "name": "nngm.de"
+    }
+  ],
+  "description": "CodeSystem nNGM Netzwerkzentren",
+  "compositional": false,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "3536",
+      "display": "Charité Comprehensive Cancer Center"
+    },
+    {
+      "code": "3549",
+      "display": "CIO Bonn"
+    },
+    {
+      "display": "CIO Köln",
+      "code": "3548"
+    },
+    {
+      "display": "Comprehensive Cancer Center Freiburg",
+      "code": "3540"
+    },
+    {
+      "display": "Comprehensive Cancer Center Mainfranken",
+      "code": "3544"
+    },
+    {
+      "display": "Comprehensive Cancer Center Ulm",
+      "code": "3543"
+    },
+    {
+      "display": "Hubertus Wald Tumorzentrum - Universitäres Cancer Center Hamburg (UCCH)",
+      "code": "2723"
+    },
+    {
+      "display": "Krebszentrum München - Comprehensive Cancer Center LMU",
+      "code": "3552"
+    },
+    {
+      "display": "Nationales Centrum für Tumorerkrankungen (NCT) Heidelberg",
+      "code": "786"
+    },
+    {
+      "code": "2084",
+      "display": "Onkologisches Zentrum Erlangen"
+    },
+    {
+      "code": "3551",
+      "display": "Roman-Herzog-Krebszentrums - Comprehensive Cancer Center (RHCCC)"
+    },
+    {
+      "code": "3542",
+      "display": "Südwestdeutsches Tumorzentrum – CCC Tübingen-Stuttgart"
+    },
+    {
+      "display": "Universitäres Centrum für Tumorerkrankungen Frankfurt",
+      "code": "3538"
+    },
+    {
+      "code": "3541",
+      "display": "Universitäres Centrum für Tumorerkrankungen Mainz"
+    },
+    {
+      "code": "3537",
+      "display": "Universitäts KrebsCentrum Dresden"
+    },
+    {
+      "display": "Universitätstumorzentrum Düsseldorf",
+      "code": "3300"
+    },
+    {
+      "display": "Westdeutsches Tumorzentrum Essen",
+      "code": "1344"
+    },
+    {
+      "code": "2773",
+      "display": "Berlin Helios Heckeshorn"
+    },
+    {
+      "code": "4038",
+      "display": "Universitätsklinikum Gießen/Marburg"
+    }
+  ],
+  "count": 19,
+  "valueSet": "http://nngm.de/fhir/ValueSet/nNGM-Netzwerkzentren",
+  "title": "nNGM Netzwerkzentren",
+  "experimental": true,
+  "publisher": "Nationales Netzwerk Genomische Medizin"
+}
