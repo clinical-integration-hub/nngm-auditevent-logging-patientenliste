@@ -1,0 +1,234 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "url": "http://nngm.de/fhir/ValueSet/Patientenliste-HTTP-StatusCode",
+  "name": "Patientenliste-HTTP-Status-Code",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url"
+        }
+      ],
+      "name": "nngm.de"
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.iana.org/assignments/http-status-codes",
+        "concept": [
+          {
+            "code": "200",
+            "display": "OK"
+          },
+          {
+            "code": "201",
+            "display": "Created"
+          },
+          {
+            "code": "202",
+            "display": "Accepted"
+          },
+          {
+            "code": "203",
+            "display": "Non-Authoritative Information"
+          },
+          {
+            "code": "204",
+            "display": "No Content"
+          },
+          {
+            "code": "205",
+            "display": "Reset Content"
+          },
+          {
+            "code": "206",
+            "display": "Partial Content"
+          },
+          {
+            "code": "207",
+            "display": "Multi-Status"
+          },
+          {
+            "code": "208",
+            "display": "Already Reported"
+          },
+          {
+            "code": "226",
+            "display": "IM Used"
+          },
+          {
+            "code": "400",
+            "display": "Bad Request"
+          },
+          {
+            "code": "401",
+            "display": "Unauthorized"
+          },
+          {
+            "code": "402",
+            "display": "Payment Required"
+          },
+          {
+            "code": "403",
+            "display": "Forbidden"
+          },
+          {
+            "code": "404",
+            "display": "Not Found"
+          },
+          {
+            "code": "405",
+            "display": "Method Not Allowed"
+          },
+          {
+            "code": "406",
+            "display": "Not Acceptable"
+          },
+          {
+            "code": "407",
+            "display": "Proxy Authentication Required"
+          },
+          {
+            "code": "408",
+            "display": "Request Timeout"
+          },
+          {
+            "code": "409",
+            "display": "Conflict"
+          },
+          {
+            "code": "410",
+            "display": "Gone"
+          },
+          {
+            "code": "411",
+            "display": "Length Required"
+          },
+          {
+            "code": "412",
+            "display": "Precondition Failed"
+          },
+          {
+            "code": "413",
+            "display": "Payload Too Large"
+          },
+          {
+            "code": "414",
+            "display": "URI Too Long"
+          },
+          {
+            "code": "415",
+            "display": "Unsupported Media Type"
+          },
+          {
+            "code": "416",
+            "display": "Range Not Satisfiable"
+          },
+          {
+            "code": "417",
+            "display": "Expectation Failed"
+          },
+          {
+            "code": "421",
+            "display": "Misdirected Request"
+          },
+          {
+            "code": "422",
+            "display": "Unprocessable Entity"
+          },
+          {
+            "code": "423",
+            "display": "Locked"
+          },
+          {
+            "code": "424",
+            "display": "Failed Dependency"
+          },
+          {
+            "code": "425",
+            "display": "Too Early"
+          },
+          {
+            "code": "426",
+            "display": "Upgrade Required"
+          },
+          {
+            "code": "428",
+            "display": "Precondition Required"
+          },
+          {
+            "code": "429",
+            "display": "Too Many Requests"
+          },
+          {
+            "code": "431",
+            "display": "Request Header Fields Too Large"
+          },
+          {
+            "code": "451",
+            "display": "Unavailable For Legal Reasons"
+          },
+          {
+            "code": "500",
+            "display": "Internal Server Error"
+          },
+          {
+            "code": "501",
+            "display": "Not Implemented"
+          },
+          {
+            "code": "502",
+            "display": "Bad Gateway"
+          },
+          {
+            "code": "503",
+            "display": "Service Unavailable"
+          },
+          {
+            "code": "504",
+            "display": "Gateway Timeout"
+          },
+          {
+            "code": "505",
+            "display": "HTTP Version Not Supported"
+          },
+          {
+            "code": "506",
+            "display": "Variant Also Negotiates"
+          },
+          {
+            "code": "507",
+            "display": "Insufficient Storage"
+          },
+          {
+            "code": "508",
+            "display": "Loop Detected"
+          },
+          {
+            "code": "510",
+            "display": "Not Extended"
+          },
+          {
+            "code": "511",
+            "display": "Network Authentication Required"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "HTTP Status Codes Logging Zugriffe Patientenliste nNGM",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Patientenliste-HTTP-Status-Code</h2><tt>http://nngm.de/fhir/ValueSet/Patientenliste-HTTP-StatusCode</tt><p>HTTP Status Codes Logging Zugriffe Patientenliste nNGM</p></div>"
+  },
+  "title": "Patientenliste HTTP Status Code",
+  "experimental": true,
+  "publisher": "Nationale Netzwerk Genomische Medizin"
+}
