@@ -8,6 +8,7 @@
   "url": "http://nngm.de/fhir/ValueSet/Patientenliste-HTTP-StatusCode",
   "name": "Patientenliste-HTTP-Status-Code",
   "status": "draft",
+  "version": "0.9",
   "contact": [
     {
       "telecom": [
