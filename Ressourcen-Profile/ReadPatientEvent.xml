@@ -3,6 +3,7 @@
   <url value="http://nngm.de/fhir/StructureDefinition/ReadPatientEvent" />
   <name value="ReadPatientEvent" />
   <status value="draft" />
+  <description value="Beschreibung eines AuditEvents zur Erfassung des Status einer 'ReadPatient' Aktion innerhalb der nNGM Patientenliste" />
   <fhirVersion value="4.0.0" />
   <mapping>
     <identity value="workflow" />

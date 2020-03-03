@@ -3,6 +3,7 @@
   <url value="http://nngm.de/fhir/StructureDefinition/CreatePatientEvent" />
   <name value="CreatePatientEvent" />
   <status value="draft" />
+  <description value="Beschreibung eines AuditEvents zur Erfassung des Status einer 'CreatePatient' Aktion innerhalb der nNGM Patientenliste" />
   <fhirVersion value="4.0.0" />
   <mapping>
     <identity value="workflow" />
