@@ -223,11 +223,7 @@
       }
     ]
   },
-  "description": "HTTP Status Codes Logging Zugriffe Patientenliste nNGM",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Patientenliste-HTTP-Status-Code</h2><tt>http://nngm.de/fhir/ValueSet/Patientenliste-HTTP-StatusCode</tt><p>HTTP Status Codes Logging Zugriffe Patientenliste nNGM</p></div>"
-  },
+  "description": "ValueSet aller erlaubten HTTP Status Codes innerhalb eines AuditEvents für die Anfrage an die nNGM Patientenliste",
   "title": "Patientenliste HTTP Status Code",
   "experimental": true,
   "publisher": "Nationale Netzwerk Genomische Medizin"
