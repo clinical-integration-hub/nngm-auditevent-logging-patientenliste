@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://nngm.de/fhir/StructureDefinition/ReadPatientEvent" />
+  <version value="0.9" />
   <name value="ReadPatientEvent" />
   <status value="draft" />
   <description value="Beschreibung eines AuditEvents zur Erfassung des Status einer 'ReadPatient' Aktion innerhalb der nNGM Patientenliste" />
