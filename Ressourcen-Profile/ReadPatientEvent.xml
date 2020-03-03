@@ -110,6 +110,10 @@
         <valueSet value="http://nngm.de/fhir/ValueSet/nNGM-Netzwerkzentren" />
       </binding>
     </element>
+    <element id="AuditEvent.source.observer">
+      <path value="AuditEvent.source.observer" />
+      <mustSupport value="true" />
+    </element>
     <element id="AuditEvent.source.observer.display">
       <path value="AuditEvent.source.observer.display" />
       <mustSupport value="true" />
